@@ -13,7 +13,7 @@ soong_namespace {
 }
 
 cc_prebuilt_library_shared {
-    name: "audio.primary.apollon",
+    name: "audio.primary.apollo",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -21,7 +21,7 @@ cc_prebuilt_library_shared {
     target: {
         android_arm: {
             srcs: [
-                "proprietary/vendor/lib/hw/audio.primary.apollon.so",
+                "proprietary/vendor/lib/hw/audio.primary.apollo.so",
             ],
             shared_libs: [
                 "libbase",
@@ -55,7 +55,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "liba2dpoffload_apollon",
+    name: "liba2dpoffload_apollo",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -63,7 +63,7 @@ cc_prebuilt_library_shared {
     target: {
         android_arm: {
             srcs: [
-                "proprietary/vendor/lib/liba2dpoffload_apollon.so",
+                "proprietary/vendor/lib/liba2dpoffload_apollo.so",
             ],
             shared_libs: [
                 "libaudioutils",
